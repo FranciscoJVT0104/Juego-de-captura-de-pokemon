@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>ATRAPA AL Pokémon</title>
+</head>
+<body>
+  <div class="screen">
+    <h1>Atrapa a tu Pokémon</h1>
+    <button class="btn" id="start-btn">Iniciar Juego</button>
+  </div>
+
+  <div class="screen">
+    <h1>¿Cuál es tu POKÉMON "favorito"?</h1>
+    <ul class="pokemons-list">
+      <li>
+        <button class="choose-pokemon-btn">
+          <p>PIKACHU</p>
+          <img src="img/PIKACHU.png" alt="PIKACHU">
+        </button>
+      </li>
+      <li>
+        <button class="choose-pokemon-btn">
+          <p>CHARMANDER</p>
+          <img src="img/CHARMANDER.png" alt="CHARMANDER" />
+        </button>
+      </li>
+      <li>
+        <button class="choose-pokemon-btn">
+          <p>MEW</p>
+          <img src="img/MEW.png" alt="MEW" />
+        </button>
+      </li>
+      <li>
+        <button class="choose-pokemon-btn">
+          <p>MEWTWO</p>
+          <img src="img/MEWTWO.png" alt="MEWTWO" />
+        </button>
+      </li>
+    </ul>
+  </div>
+
+  <div class="screen game-container" id="game-container">
+    <h3 id="time" class="time">Time: 00:00</h3>
+    <h3 id="score" class="score">Score: 0</h3>
+    <h5 id="startmessage" class="startmessage">
+      Atrapa 30 pokémones en 40 segundos <br />
+      ¡¡vamosssss!!
+    </h5>
+    <h5 id="message" class="message">
+      ¿Estás molesto todavía? <br />
+      ¡¡Estás jugando un juego imposible!!
+    </h5>
+    <h5 id="gameovermessage" class="gameovermessage">
+      Game Over <br />
+      ¡Inténtalo de nuevo!
+    </h5>
+    <h5 id="winmessage" class="winmessage">
+      ¡Felicidades! <br />
+      Has atrapado a todos los Pokémon.
+    </h5>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
